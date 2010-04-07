@@ -1,0 +1,8 @@
+= Authlogic Activation and Password Reset Example App
+
+This is an example of how to implement account activation and password reset (both via email) using Authlogic. I wanted to fork authlogic_example, but it uses rails 2.1.2 and I figured it'd be easier to just start a new rails project.
+
+* Reset passwords tutorial: http://www.binarylogic.com/2008/11/16/tutorial-reset-passwords-with-authlogic
+* Authlogic Example with Password Reset: http://github.com/binarylogic/authlogic_example/tree/with-password-resets
+* Authlogic Activation Tutorial: http://github.com/kamui/authlogic-activation-tutorial (fork off http://github.com/matthooks/authlogic-activation-tutorial)
+* Authlogic: http://github.com/binarylogic/authlogic

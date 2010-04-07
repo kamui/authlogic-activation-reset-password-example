@@ -1,0 +1,10 @@
+log/*.log
+data
+assets
+env
+db/*.sqlite3
+tmp/**/*
+doc/api
+doc/app
+nbproject
+.DS_Store

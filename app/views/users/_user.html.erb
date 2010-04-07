@@ -1,0 +1,16 @@
+<% form_for @user, :url => account_path do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label :email %><br />
+    <%= f.text_field :email, :size => 30 %>
+  </p>
+  <p>
+    <%= f.label :password %><br />
+    <%= f.password_field :password, :size => 20 %>
+  </p>
+  <p>
+    <%= f.label :password_confirmation %><br />
+    <%= f.password_field :password_confirmation, :size => 20 %>
+  </p>
+  <p><%= f.submit "Submit" %></p>
+<% end %>
