@@ -6,11 +6,6 @@
   <body>
     <ul>
       <% if current_user %>
-        <% if current_user.admin? %>
-          <li>
-            <%= link_to "Admin", admin_path %>  
-          </li>
-        <% end %>
         <li>
           <%= link_to "Edit profile", edit_account_path %>  
         </li>
