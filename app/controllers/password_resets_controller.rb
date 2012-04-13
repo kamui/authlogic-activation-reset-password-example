@@ -7,7 +7,7 @@ class PasswordResetsController < ApplicationController
   end
 
   def create
-    @user = User.find_by_email(params[:email])
+    @user = User.where("LOWER(email) = ?", params[:email]).first
     if @user
       @user.deliver_password_reset!
       flash[:notice] = "Instructions to reset your password have been emailed to you. " +
